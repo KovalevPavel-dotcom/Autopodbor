@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>AVTOPOD</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+	</head>
+	<body>
+		<div class="popup-bg hide" id="popup-bg">
+			<div class="popup">
+				<div class="popup_x" id="popup_x" onclick="popupToggle()">X</div>
+				<h2>Заказать звонок</h2>
+					<form>
+						<input type="text" placeholder="Услуга" required>
+						<input type="text" placeholder="ФИО" required>
+						<input type="text" placeholder="Телефон" required>
+						<input type="email"placeholder="E-mail" required>
+						<input type="date" placeholder="Дата" required>
+						<button>Отправить</button>
+					</form>
+				</div>
+			</div>
+		<header>
+			<div class="container">
+				<div class="menu">
+					<div class="logo">
+						<a href="#">AVTO<span>POD</span></a>
+					</div>
+					<nav>
+						<ul>
+							<li>
+								<a href="#">О нас</a>
+							</li>
+							<li>
+								<a href="#">Наши услуги</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="social">
+						<a href="#">
+							<div class="vk"></div>
+						</a>
+						<a href="#">
+							<div class="inst"></div>
+						</a>
+					</div>
+					<div class="contact_info">
+						<ul>
+							<li>
+								<a href="avtopod">avtopod@mail.ru</a>
+							</li>
+							<li>
+								<a href="phone">8(922)317-32-32</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<section id="card">
+			<div class="container">
+				<div class="box">
+					<h1>Забери свой автомобиль мечты прямо сейчас</h1>
+					<p>Оформим в короткие сроки</p>
+					<a href="#" class="btn" onclick="popupToggle()">Оформить подбор</a>
+				</div>
+			</div>
+		</section>
+		<section id="gallery">
+			<div class="container">
+				<h2>Варианты подборов</h2>
+				<div class="gallery_cards">
+					<div class="card">
+						<img src="img/gallery/а-01.png">
+					</div>
+					<div class="card">
+						<img src="img/gallery/a-02.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/b-01.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/с-01.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/d-01.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/аe-01.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/аd-01.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/аo-01.png">					
+					</div>
+					<div class="card">
+						<img src="img/gallery/аew-01.png">					
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="services">
+			<div class="container">
+				<h2>Наши услуги</h2>
+				<div class= "services_row">
+					<div class="service_card">
+						<img src="img/gallery/q-01.png">
+						<p class="service_name">Подбор нового автомобиля</p>
+						<p class="service_cost"> <span>16000</span>р.</p>
+						<a class="btn-black" onclick="popupToggle()">Оформить подбор</a>
+					</div>
+					<div class="service_card">
+						<img src="img/gallery/qwe-01.png">
+						<p class="service_name">Экспресс подбор автомобиля</p>
+						<p class="service_cost"> <span>16500</span>р.</p>
+						<a class="btn-black" onclick="popupToggle()">Оформить подбор</a>
+					</div>
+					<div class="service_card">
+						<img src="img/gallery/qwer-01.png">
+						<p class="service_name">Подбор автомобиля под ключ</p>
+						<p class="service_cost"> <span>25000</span>р.</p>
+						<a class="btn-black" onclick="popupToggle()">Оформить подбор</a>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contacts">
+			<div class="container">
+				<div class="myo">
+					<h2>Наши контакты</h2>
+					<p>Организация по автоподбору AVTO<span class="bold">POD</span></p>
+					<p class="bold">Санкт-Петербург</p>
+					<p><a href="tel:891284032184" class="bold">8(922)317-32-32</a></p>
+					<p><a href="mailto:kiss@studio.ru" class="bold">avtopod@mail.ru</a></p>
+					<div class="social">
+						<a href="#">
+							<div class="vk"></div>
+						</a>
+						<a href="#">
+							<div class="inst"></div>
+						</a>
+					</div>
+				</div>	
+			</div>
+		</section>
+
+
+		<footer>
+			<div class="container">
+				<div class="footer_content">
+					<ul class="text-left">
+						<li>
+							<a href="#">О нас</a>
+						</li>
+						<li>
+							<a href="#">Наши услуги</a>
+						</li>
+						<li>
+							<a href="#">Контакты</a>
+						</li>
+					</ul>
+
+					<ul class="text-center">
+						<li>
+							<a href="#">Мы Вконтакте</a>
+						</li>
+						<li>
+							<a href="#">Мы в Инстаграм</a>
+						</li>
+					</ul>
+
+					<ul class="text-right">
+						<li>
+							<a href="#">ИП Камышова Е.Г.</a>
+						</li>
+						<li>
+							<a href="#">ИНН: 1432124312</a>
+						</li>
+						<li>
+							<a href="#">ОГРНИП: 5754675437571</a>
+						</li>
+					</ul>
+
+				</div>	
+			</div>
+		</footer>
+
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>
